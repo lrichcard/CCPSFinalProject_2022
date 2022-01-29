@@ -19,7 +19,7 @@ namespace CCPSAPPS.Controllers
 
 
 
-
+        //show all the data
         public IActionResult Index()
         {
             IEnumerable<JoursDeClass> jourClass = _db.JoursDeClasses;
