@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCPSAPPS", "CCPSAPPS\CCPSAPPS.csproj", "{607A5531-7694-4D6F-BC58-DEBF4B623008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607A5531-7694-4D6F-BC58-DEBF4B623008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607A5531-7694-4D6F-BC58-DEBF4B623008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607A5531-7694-4D6F-BC58-DEBF4B623008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607A5531-7694-4D6F-BC58-DEBF4B623008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8048ED7C-242C-41CA-80B8-BF40C06DCC90}
+	EndGlobalSection
+EndGlobal
