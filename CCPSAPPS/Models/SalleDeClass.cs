@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
+
 
 namespace CCPSAPPS.Models
 {
     public partial class SalleDeClass
     {
-        public int SalleDeclasseId { get; set; }
-        public string NomDuSalle { get; set; } = null!;
+        [Key]
+        public int? SalleDeclasseID { get; set; } = 2;
+
+        public string Nom_du_salle { get; set; }
         public string? SalleDescription { get; set; }
-        public int? NombreDePersonne { get; set; }
+        public int? Nombre_de_Personne { get; set; }
     }
 }

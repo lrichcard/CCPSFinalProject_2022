@@ -43,6 +43,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ckRlQ2xhc3NcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

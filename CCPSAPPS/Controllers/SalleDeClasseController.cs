@@ -1,30 +1,20 @@
-﻿//using CCPSAPPS.Data;
-using CCPSAPPS.Models;
+﻿using CCPSAPPS.Models;
 using Microsoft.AspNetCore.Mvc;
-//using System.ComponentModel.DataAnnotations;
-//using System.Linq;
 using ApplicationDbContext = CCPSAPPS.Data.ApplicationDbContext;
-
 namespace CCPSAPPS.Controllers
 {
-    //git push origin main
-    public class JourDeClassController : Controller
-
+    public class SalleDeClasseController : Controller
     {
         private readonly ApplicationDbContext _db;
 
-        public JourDeClassController(ApplicationDbContext db)
+        public SalleDeClasseController(ApplicationDbContext db)
         {
             _db = db;
         }
-
-
-
-        //show all the data
         public IActionResult Index()
         {
-            IEnumerable<JoursDeClass> jourClass = _db.JoursDeClasses;
-            return View(jourClass);
+            IEnumerable<SalleDeClass> salle = _db.SalleDeClasses;
+            return View(salle);
         }
 
 
@@ -38,9 +28,9 @@ namespace CCPSAPPS.Controllers
         //Post- Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(JoursDeClass jourClass)
+        public IActionResult Create(SalleDeClass salleClasse)
         {
-            _db.JoursDeClasses.Add(jourClass);
+            _db.SalleDeClasses.Add(salleClasse);
             _db.SaveChanges();
 
             return RedirectToAction("Index");
@@ -57,12 +47,12 @@ namespace CCPSAPPS.Controllers
             {
                 return NotFound();
             }
-            JoursDeClass jourClass = _db.JoursDeClasses.Find(id);
-            if (jourClass == null)
+            SalleDeClass salleDeClass = _db.SalleDeClasses.Find(id);
+            if (salleDeClass == null)
             {
                 return NotFound();
             }
-            return View(jourClass);
+            return View(salleDeClass);
         }
 
 
@@ -72,12 +62,12 @@ namespace CCPSAPPS.Controllers
             {
                 return NotFound();
             }
-            var jourClass = _db.JoursDeClasses.Find(id);
-            if (jourClass == null)
+            var salleClass = _db.SalleDeClasses.Find(id);
+            if (salleClass == null)
             {
                 return NotFound();
             }
-            return View(jourClass);
+            return View(salleClass);
         }
 
 
@@ -86,8 +76,8 @@ namespace CCPSAPPS.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            JoursDeClass jourClass = _db.JoursDeClasses.Find(id);
-            _db.JoursDeClasses.Remove(jourClass);
+            SalleDeClass salleDeClass = _db.SalleDeClasses.Find(id);
+            _db.SalleDeClasses.Remove(salleDeClass);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }
@@ -100,26 +90,26 @@ namespace CCPSAPPS.Controllers
             {
                 return NotFound();
             }
-            var jourClass = _db.JoursDeClasses.Find(id);
-            if (jourClass == null)
+            var salleClasse = _db.SalleDeClasses.Find(id);
+            if (salleClasse == null)
             {
                 return NotFound();
             }
-            return View(jourClass);
+            return View(salleClasse);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Update(JoursDeClass jourClass)
+        public IActionResult Update(SalleDeClass salleClasse)
         {
-            _db.JoursDeClasses.Update(jourClass);
+            _db.SalleDeClasses.Update(salleClasse);
             _db.SaveChanges();
 
             return RedirectToAction("Index");
         }
 
-        
+
 
 
 

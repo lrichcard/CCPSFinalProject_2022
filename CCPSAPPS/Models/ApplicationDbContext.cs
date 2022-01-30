@@ -317,13 +317,13 @@ namespace CCPSAPPS.Models
             {
                 entity.HasNoKey();
 
-                entity.Property(e => e.NomDuSalle)
+                entity.Property(e => e.Nom_du_salle)
                     .HasMaxLength(50)
                     .HasColumnName("Nom_du_salle");
 
-                entity.Property(e => e.NombreDePersonne).HasColumnName("Nombre_de_Personne");
+                entity.Property(e => e.Nombre_de_Personne).HasColumnName("Nombre_de_Personne");
 
-                entity.Property(e => e.SalleDeclasseId).HasColumnName("SalleDeclasseID");
+                entity.Property(e => e.SalleDeclasseID).HasColumnName("SalleDeclasseID");
             });
 
             modelBuilder.Entity<Session>(entity =>
