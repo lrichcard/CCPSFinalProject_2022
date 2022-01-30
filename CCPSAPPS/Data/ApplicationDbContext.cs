@@ -22,9 +22,12 @@ namespace CCPSAPPS.Data
 
         public DbSet<HeuresDeClasses> HeureDeClasses { get; set; }
         public DbSet<JoursDeClass> JoursDeClasses { get; set; }
-        public DbSet<SalleDeClass> SalleDeClasses { get; set; }
         public object JourDeClass { get; internal set; }
+        public DbSet<SalleDeClass> SalleDeClasses { get; set; }
         public object SalleDeClass { get; internal set; }
+
+        public DbSet<Class> Classes { get; set; }
+        public object Class { get; internal set; }
 
     }
 }

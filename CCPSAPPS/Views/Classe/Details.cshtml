@@ -1,0 +1,42 @@
+﻿@model CCPSAPPS.Models.Class
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Class</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomClasse)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomClasse)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NiveauClasse)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NiveauClasse)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Categorie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Categorie)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Update" asp-route-id="@Model?.ClasseId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
