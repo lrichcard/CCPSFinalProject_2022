@@ -1,4 +1,4 @@
-﻿@*@model IEnumerable<CCPSAPPS.Models.HeuresDeClass>
+﻿@model IEnumerable<CCPSAPPS.Models.HeuresDeClass>
 
 @{
     ViewData["Title"] = "Index";
@@ -31,7 +31,7 @@
                 @Html.DisplayFor(modelItem => item.Categorie)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.HeureID">Edit</a> |
+                <a asp-action="Update" asp-route-id="@item.HeureID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.HeureID">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.HeureID">Delete</a>
             </td>
@@ -39,4 +39,3 @@
 }
     </tbody>
 </table>
-*@
