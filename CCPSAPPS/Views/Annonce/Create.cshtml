@@ -1,0 +1,40 @@
+﻿@model CCPSAPPS.Models.Annonce
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Annonce</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Annonce1" class="control-label"></label>
+                <input asp-for="Annonce1" class="form-control" />
+                <span asp-validation-for="Annonce1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateCreee" class="control-label"></label>
+                <input asp-for="DateCreee" class="form-control" />
+                <span asp-validation-for="DateCreee" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Actif" class="control-label"></label>
+                <input asp-for="Actif" class="form-control" />
+                <span asp-validation-for="Actif" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

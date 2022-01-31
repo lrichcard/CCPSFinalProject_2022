@@ -20,7 +20,7 @@ namespace CCPSAPPS.Data
 
         }
 
-        public DbSet<HeuresDeClasses> HeureDeClasses { get; set; }
+    
         public DbSet<JoursDeClass> JoursDeClasses { get; set; }
         public object JourDeClass { get; internal set; }
         public DbSet<SalleDeClass> SalleDeClasses { get; set; }
@@ -28,6 +28,14 @@ namespace CCPSAPPS.Data
 
         public DbSet<Class> Classes { get; set; }
         public object Class { get; internal set; }
+
+        public DbSet<HeuresDeClass> HeureDeClasses { get; set; }
+        public object HeureDeClass { get; internal set; }
+
+
+         public DbSet<Annonce> Annonces { get; set; }
+        public object Annonce { get; internal set; }
+
 
     }
 }

@@ -55,7 +55,7 @@ namespace CCPSAPPS.Models
 
                 entity.Property(e => e.Annonce1)
                     .IsUnicode(false)
-                    .HasColumnName("Annonce");
+                    .HasColumnName("Annonce1");
 
                 entity.Property(e => e.DateCreee)
                     .HasColumnType("date")
@@ -155,9 +155,9 @@ namespace CCPSAPPS.Models
 
             modelBuilder.Entity<HeuresDeClass>(entity =>
             {
-                entity.HasKey(e => e.HeureId);
+                entity.HasKey(e => e.HeureID);
 
-                entity.Property(e => e.HeureId).HasColumnName("HeureID");
+                entity.Property(e => e.HeureID).HasColumnName("HeureID");
 
                 entity.Property(e => e.Categorie).HasMaxLength(50);
 

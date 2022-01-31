@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CCPSAPPS.Models
 {
     public partial class HeuresDeClass
     {
-        public int HeureId { get; set; }
+        [Key]
+        public int HeureID { get; set; }
         public string HeureDescription { get; set; } = null!;
         public string? Categorie { get; set; }
     }
