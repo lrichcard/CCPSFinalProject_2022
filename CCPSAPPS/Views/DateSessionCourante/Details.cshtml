@@ -1,0 +1,42 @@
+﻿@model CCPSAPPS.Models.DatesSessionCourante
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DatesSessionCourante</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SessionDateDebut)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SessionDateDebut)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SessionDateFin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SessionDateFin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Remarque)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Remarque)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Actif)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Actif)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Update" asp-route-id="@Model?.SessionDateId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

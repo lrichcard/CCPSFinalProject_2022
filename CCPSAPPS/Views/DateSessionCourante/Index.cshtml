@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CCPSAPPS.Models.DatesSessionCourante>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SessionDateDebut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SessionDateFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Remarque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actif)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SessionDateDebut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SessionDateFin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remarque)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actif)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.SessionDateId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SessionDateId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SessionDateId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
