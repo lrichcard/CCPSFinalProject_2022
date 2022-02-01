@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CCPSAPPS.Models
 {
     public partial class Personne
     {
+        [Key]
         public int PersonneId { get; set; }
         public string Prenom { get; set; } = null!;
         public string Nom { get; set; } = null!;

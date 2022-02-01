@@ -37,7 +37,9 @@ namespace CCPSAPPS.Data
         public object Annonce { get; internal set; }
 
         public DbSet<DatesSessionCourante> DatesSessionCourantes { get; set; }
-        public object DatesSessionCourante { get; internal set; }
+        public object DatesSessionCourante { get; internal set; } 
+        public DbSet<Personne> Personnes { get; set; }
+        public object Personne { get; internal set; }
 
 
     }
