@@ -12,10 +12,25 @@ namespace CCPSAPPS.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public IActionResult Index(int pg=1)
         {
             IEnumerable<Personne> personne = _db.Personnes;
-            return View(personne);
+
+            const int pageSize = 10;
+            if (pg < 1)
+                pg = 1;
+            int resCount = personne.Count();
+            var page = new Page(resCount, pg, pageSize);
+
+            int recSkip = (pg - 1) * pageSize;
+            var data = personne.Skip(recSkip).Take(page.PageSize).ToList();
+            
+            this.ViewBag.Page = page;
+
+            return View(data);
+            
+           // return View(personne);
+
         }
 
         //Get - Create
