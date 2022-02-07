@@ -41,6 +41,12 @@ namespace CCPSAPPS.Data
         public DbSet<Personne> Personnes { get; set; }
         public object Personne { get; internal set; }
 
+        public DbSet<EtudiantsCourant> EtudiantsCourants { get; set; }
+        public object EtudiantsCourant { get; internal set; }
+
+        public DbSet<Models.Session> Sessions { get; set; }
+        public object Session { get; internal set; }
+
 
     }
 }

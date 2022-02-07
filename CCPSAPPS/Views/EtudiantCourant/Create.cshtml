@@ -1,0 +1,71 @@
+﻿@model CCPSAPPS.Models.EtudiantsCourant
+@{
+    ViewData["Title"] = "Create";
+
+    //ViewBag.data as ICollection<Personne>
+    var UserName = Environment.UserName;
+   
+}
+ 
+   
+</div>
+
+<h1>Create</h1>
+
+<h4>EtudiantsCourant</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PersonneId" class="control-label"></label>
+                 @Html.DropDownList("PersonneId",ViewBag.PersonneSelectedList as SelectList, "Selectionnez la personne", new {@class = "form-control" })
+                <span asp-validation-for="PersonneId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SessionId" class="control-label"></label>
+             @Html.DropDownList("SessionId",ViewBag.SessionInfo as SelectList, "Selectionnez la session", new {@class = "form-control" })
+                <span asp-validation-for="SessionId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreeParUsername" class="control-label"></label>
+               <h1>@UserName</h1>
+                <span asp-validation-for="CreeParUsername" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateCreee" class="control-label"></label>
+                <input asp-for="DateCreee" class="form-control" />
+                <span asp-validation-for="DateCreee" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Admis" class="control-label"></label>
+                <input asp-for="Admis" class="form-control" />
+                <span asp-validation-for="Admis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdmisPar" class="control-label"></label>
+                <input asp-for="AdmisPar" class="form-control" />
+                <span asp-validation-for="AdmisPar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LockEdit" class="control-label"></label>
+                <input asp-for="LockEdit" class="form-control" />
+                <span asp-validation-for="LockEdit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateAdmis" class="control-label"></label>
+                <input asp-for="DateAdmis" class="form-control" />
+                <span asp-validation-for="DateAdmis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

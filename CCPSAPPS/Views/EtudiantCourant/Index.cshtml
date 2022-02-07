@@ -1,0 +1,130 @@
+﻿@model IEnumerable<CCPSAPPS.Models.EtudiantsCourant>
+
+@{
+    ViewData["Title"] = "Index";
+     ViewData["Title"] = "Index";
+
+    Pager page = new Pager();
+    int pageNo = 0;
+
+    if (ViewBag.Page !=null)
+    {
+        page = ViewBag.Page;
+        pageNo = page.CurrentPage;
+    }
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonneId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SessionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreeParUsername)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCreee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Admis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdmisPar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LockEdit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateAdmis)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonneId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SessionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreeParUsername)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Admis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdmisPar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LockEdit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateAdmis)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.EtudiantsCourantsId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.EtudiantsCourantsId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EtudiantsCourantsId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+
+<div class="container">
+    @if (page.TotalPages >0)
+    {
+        <ul class="pagination justify-content-end">
+
+             @if (page.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class ="page-link" asp-controller="EtudiantCourant" asp-action="Index" asp-route-pg="1">First</a>
+                </li>
+
+                 <li class="page-item">
+                    <a class ="page-link" asp-controller="EtudiantCourant" asp-action="Index" asp-route-pg="@(page.CurrentPage)">Previous</a>
+                </li>
+
+            }
+
+
+            @for ( var pge = page.StartPage; pge <= page.EndPage; pge++)
+            {   
+                 <li class="page-item @(pge == page.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-controller="EtudiantCourant" asp-action="Index" asp-route-pg="@pge">@pge</a>
+
+                </li>
+            }
+            @if (page.CurrentPage < page.TotalPages)
+            {
+                <li class="page-item">
+                    <a class ="page-link" asp-controller="EtudiantCourant" asp-action="Index" asp-route-pg="@(page.CurrentPage +1)">Next</a>
+                </li>
+
+                 <li class="page-item">
+                    <a class ="page-link" asp-controller="EtudiantCourant" asp-action="Index" asp-route-pg="@(page.TotalPages)">Last</a>
+                </li>
+
+            }
+        </ul>
+    }
+</div>

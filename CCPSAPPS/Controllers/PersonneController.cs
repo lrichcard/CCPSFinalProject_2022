@@ -16,11 +16,11 @@ namespace CCPSAPPS.Controllers
         {
             IEnumerable<Personne> personne = _db.Personnes;
 
-            const int pageSize = 10;
+            const int pageSize = 50;
             if (pg < 1)
                 pg = 1;
             int resCount = personne.Count();
-            var page = new Page(resCount, pg, pageSize);
+            var page = new Pager(resCount, pg, pageSize);
 
             int recSkip = (pg - 1) * pageSize;
             var data = personne.Skip(recSkip).Take(page.PageSize).ToList();
@@ -123,3 +123,4 @@ namespace CCPSAPPS.Controllers
         }
     }
 }
+ 
