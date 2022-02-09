@@ -1,0 +1,66 @@
+﻿@model CCPSAPPS.Models.EtudiantsCourant
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>EtudiantsCourant</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PersonneId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PersonneId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SessionId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SessionId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreeParUsername)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreeParUsername)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateCreee)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateCreee)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Admis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Admis)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AdmisPar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AdmisPar)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LockEdit)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LockEdit)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateAdmis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateAdmis)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.EtudiantsCourantsId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

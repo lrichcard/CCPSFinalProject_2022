@@ -111,12 +111,87 @@ namespace CCPSAPPS.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(EtudiantsCourant etudiantsCourant)
         {
+            var UserName = Environment.UserName;
+            etudiantsCourant.CreeParUsername = UserName;
 
-            //etudiantsCourant.CreeParUsername = httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
             _db.EtudiantsCourants.Add(etudiantsCourant);
             
             _db.SaveChanges();
 
+            return RedirectToAction("Index");
+        }
+
+      
+        //show a simple record using its id
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var etudiantCourant = _db.EtudiantsCourants.Find(id);
+            if (etudiantCourant == null)
+            {
+                return NotFound();
+            }
+            return View(etudiantCourant);
+        }
+
+        // GET: /Movies/Delete/5
+        public ActionResult Delete(int? id)
+        {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var etudiantC = _db.EtudiantsCourants.Find(id);
+            if (etudiantC == null)
+            {
+                return NotFound();
+            }
+            return View(etudiantC);
+        }
+
+
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        public ActionResult Update(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var etudiantC = _db.EtudiantsCourants.Find(id);
+            if (etudiantC == null)
+            {
+                return NotFound();
+            }
+            return View(etudiantC);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update(EtudiantsCourant etudiantC)
+        {
+            _db.EtudiantsCourants.Update(etudiantC);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+
+
+        // POST: /Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            EtudiantsCourant etudiantsCourant = _db.EtudiantsCourants.Find(id);
+            _db.EtudiantsCourants.Remove(etudiantsCourant);
+            _db.SaveChanges();
             return RedirectToAction("Index");
         }
     }

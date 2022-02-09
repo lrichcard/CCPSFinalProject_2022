@@ -35,7 +35,7 @@ namespace CCPSAPPS.Controllers
             return RedirectToAction("Index");
         }
 
-
+        //Show a simple record using its ID
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -79,7 +79,7 @@ namespace CCPSAPPS.Controllers
         }
 
 
-        // GET: /Movies/Delete/5
+        // GET: /Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)

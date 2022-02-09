@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CCPSAPPS.Models.Gradue>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonneId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateGraduation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NbreDiplomeImpreme)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateImprime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sujet)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonneId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateGraduation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NbreDiplomeImpreme)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateImprime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sujet)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.GradueId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.GradueId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.GradueId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

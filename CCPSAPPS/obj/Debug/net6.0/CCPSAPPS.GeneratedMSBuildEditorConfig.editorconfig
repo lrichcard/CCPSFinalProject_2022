@@ -79,8 +79,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/HeureDeClasse/Create.cshtml]
