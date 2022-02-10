@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CCPSAPPS.Models.Parametre>
+﻿@model CCPSAPPS.Models.Parametre
 
 @{
     ViewData["Title"] = "Details";
@@ -6,90 +6,79 @@
 
 <h1>Details</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Taux)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NombreEtudiantsParClasse)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MontantFrais)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre17)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre16)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre15)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre14)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre13)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre12)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre11)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Parametre1)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Taux)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NombreEtudiantsParClasse)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MontantFrais)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre17)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre16)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre15)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre14)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre13)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre12)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre11)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Parametre1)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div>
+    <h4>Parametre</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Taux)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Taux)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreEtudiantsParClasse)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NombreEtudiantsParClasse)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MontantFrais)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MontantFrais)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre17)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre17)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre16)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre16)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre15)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre15)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre14)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre14)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre13)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre13)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre12)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre12)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre11)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre11)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Parametre1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Parametre1)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Update" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
