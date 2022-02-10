@@ -1,0 +1,95 @@
+﻿@model IEnumerable<CCPSAPPS.Models.Parametre>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Taux)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreEtudiantsParClasse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontantFrais)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre17)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre16)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre15)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre14)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre13)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre12)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre11)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parametre1)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Taux)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreEtudiantsParClasse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontantFrais)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre17)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre16)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre15)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre14)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre13)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre12)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre11)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parametre1)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

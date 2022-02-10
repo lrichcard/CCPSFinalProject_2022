@@ -212,6 +212,8 @@ namespace CCPSAPPS.Models
             modelBuilder.Entity<Parametre>(entity =>
             {
                 entity.HasNoKey();
+            
+
 
                 entity.Property(e => e.Id).HasColumnName("ID");
 

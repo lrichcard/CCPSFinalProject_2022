@@ -50,5 +50,8 @@ namespace CCPSAPPS.Data
         public DbSet<Gradue> Gradues { get; set; }
         public object Gradue { get; internal set; }
 
+        public DbSet<Parametre> Parametres { get; set; }
+        public object Parametre { get; internal set; }
+
     }
 }

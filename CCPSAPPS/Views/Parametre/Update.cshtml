@@ -1,0 +1,81 @@
+﻿@model CCPSAPPS.Models.Parametre
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+<h4>Parametre</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Taux" class="control-label"></label>
+                <input asp-for="Taux" class="form-control" />
+                <span asp-validation-for="Taux" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NombreEtudiantsParClasse" class="control-label"></label>
+                <input asp-for="NombreEtudiantsParClasse" class="form-control" />
+                <span asp-validation-for="NombreEtudiantsParClasse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MontantFrais" class="control-label"></label>
+                <input asp-for="MontantFrais" class="form-control" />
+                <span asp-validation-for="MontantFrais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre17" class="control-label"></label>
+                <input asp-for="Parametre17" class="form-control" />
+                <span asp-validation-for="Parametre17" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre16" class="control-label"></label>
+                <input asp-for="Parametre16" class="form-control" />
+                <span asp-validation-for="Parametre16" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre15" class="control-label"></label>
+                <input asp-for="Parametre15" class="form-control" />
+                <span asp-validation-for="Parametre15" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre14" class="control-label"></label>
+                <input asp-for="Parametre14" class="form-control" />
+                <span asp-validation-for="Parametre14" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre13" class="control-label"></label>
+                <input asp-for="Parametre13" class="form-control" />
+                <span asp-validation-for="Parametre13" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre12" class="control-label"></label>
+                <input asp-for="Parametre12" class="form-control" />
+                <span asp-validation-for="Parametre12" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre11" class="control-label"></label>
+                <input asp-for="Parametre11" class="form-control" />
+                <span asp-validation-for="Parametre11" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Parametre1" class="control-label"></label>
+                <input asp-for="Parametre1" class="form-control" />
+                <span asp-validation-for="Parametre1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
