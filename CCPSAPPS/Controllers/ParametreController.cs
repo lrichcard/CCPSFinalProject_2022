@@ -79,7 +79,7 @@ namespace CCPSAPPS.Controllers
         }
 
 
-        // GET: /Delete/5
+        // GET: /Delete
         public ActionResult Delete(int? id)
         {
             if (id == null)
