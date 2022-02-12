@@ -1,0 +1,89 @@
+﻿@model IEnumerable<CCPSAPPS.Models.Session>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClasseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfesseurId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxEtudiants)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JourRencontre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCommence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Heures)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontantParticipation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Byusername)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actif)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClasseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfesseurId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxEtudiants)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JourRencontre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCommence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateFin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Heures)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontantParticipation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Byusername)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actif)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SessionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SessionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SessionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
