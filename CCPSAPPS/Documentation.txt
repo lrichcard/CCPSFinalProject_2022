@@ -1,0 +1,8 @@
+﻿Nous avons fait un changement dans le database
+specifiquement dans la table Annonce dans le champ Annonce
+A cause de la convention de .net core ne permet pas a une variable d'avoir le nom que le model(Class)
+Pour cela nous avons ajouter un chiffre 1 dans le nom du champ appele Annonce ce qui donne Annonce1
+
+
+Nous Avons fait un changement dans la table HeuresDeClasse de la base de donnee
+Nous avons retiré ou enlever la "S" ce qui donne HeureDeClasse sans "S"
