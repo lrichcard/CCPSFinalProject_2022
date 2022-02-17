@@ -12364,24 +12364,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rich\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Alpha\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rich\\source\\repos\\CCPSAPPS\\CCPSAPPS\\CCPSAPPS.csproj",
+      "projectUniqueName": "C:\\Users\\Alpha\\Source\\Repos\\CCPSFinalProject_2022\\CCPSAPPS\\CCPSAPPS.csproj",
       "projectName": "CCPSAPPS",
-      "projectPath": "C:\\Users\\Rich\\source\\repos\\CCPSAPPS\\CCPSAPPS\\CCPSAPPS.csproj",
-      "packagesPath": "C:\\Users\\Rich\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rich\\source\\repos\\CCPSAPPS\\CCPSAPPS\\obj\\",
+      "projectPath": "C:\\Users\\Alpha\\Source\\Repos\\CCPSFinalProject_2022\\CCPSAPPS\\CCPSAPPS.csproj",
+      "packagesPath": "C:\\Users\\Alpha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alpha\\Source\\Repos\\CCPSFinalProject_2022\\CCPSAPPS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rich\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Alpha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

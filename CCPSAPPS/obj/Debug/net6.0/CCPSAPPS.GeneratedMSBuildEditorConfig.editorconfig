@@ -8,241 +8,241 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CCPSAPPS
 build_property.RootNamespace = CCPSAPPS
-build_property.ProjectDir = C:\Users\Rich\source\repos\CCPSAPPS\CCPSAPPS\
+build_property.ProjectDir = C:\Users\Alpha\Source\Repos\CCPSFinalProject_2022\CCPSAPPS\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Rich\source\repos\CCPSAPPS\CCPSAPPS
+build_property.MSBuildProjectDirectory = C:\Users\Alpha\Source\Repos\CCPSFinalProject_2022\CCPSAPPS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Annonce/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Annonce/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub25jZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Annonce/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Annonce/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub25jZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Annonce/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Annonce/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub25jZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Annonce/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Annonce/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub25jZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Annonce/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Annonce/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5ub25jZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Classe/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Classe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Classe/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Classe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Classe/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Classe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Classe/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Classe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Classe/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Classe/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NlXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/DateSessionCourante/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/DateSessionCourante/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVNlc3Npb25Db3VyYW50ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/DateSessionCourante/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/DateSessionCourante/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVNlc3Npb25Db3VyYW50ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/DateSessionCourante/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/DateSessionCourante/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVNlc3Npb25Db3VyYW50ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/DateSessionCourante/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/DateSessionCourante/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVNlc3Npb25Db3VyYW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/DateSessionCourante/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/DateSessionCourante/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0ZVNlc3Npb25Db3VyYW50ZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantCourant/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantCourant/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantCourant/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantCourant/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantCourant/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantCourant/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRDb3VyYW50XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantGradue/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantGradue/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantGradue/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantGradue/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/EtudiantGradue/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/EtudiantGradue/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXR1ZGlhbnRHcmFkdWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/HeureDeClasse/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/HeureDeClasse/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGV1cmVEZUNsYXNzZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/HeureDeClasse/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/HeureDeClasse/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGV1cmVEZUNsYXNzZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/HeureDeClasse/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/HeureDeClasse/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGV1cmVEZUNsYXNzZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/HeureDeClasse/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/HeureDeClasse/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGV1cmVEZUNsYXNzZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/HeureDeClasse/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/HeureDeClasse/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGV1cmVEZUNsYXNzZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Home/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Home/Privacy.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/JourDeClass/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/JourDeClass/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ckRlQ2xhc3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/JourDeClass/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/JourDeClass/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ckRlQ2xhc3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/JourDeClass/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/JourDeClass/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ckRlQ2xhc3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/JourDeClass/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/JourDeClass/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ckRlQ2xhc3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/JourDeClass/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/JourDeClass/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91ckRlQ2xhc3NcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Parametre/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Parametre/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Parametre/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Parametre/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Parametre/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Parametre/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Parametre/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Parametre/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Parametre/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Parametre/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyYW1ldHJlXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Personne/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Personne/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Personne/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Personne/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Personne/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Personne/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Personne/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Personne/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Personne/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Personne/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29ubmVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Create.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/SalleDeClasse/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Delete.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/SalleDeClasse/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Details.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/SalleDeClasse/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Index.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/SalleDeClasse/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/SalleDeClasse/Update.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/SalleDeClasse/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsbGVEZUNsYXNzZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Shared/Error.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Shared/_Pager.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Shared/_Pager.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/_ViewImports.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/_ViewStart.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rich/source/repos/CCPSAPPS/CCPSAPPS/Views/Shared/_Layout.cshtml]
+[C:/Users/Alpha/Source/Repos/CCPSFinalProject_2022/CCPSAPPS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j9ynz6zqbh
