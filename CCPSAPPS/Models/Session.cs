@@ -12,9 +12,11 @@ namespace CCPSAPPS.Models
         public string JourRencontre { get; set; } = null!;
         public DateTime DateCommence { get; set; }
         public DateTime DateFin { get; set; }
-        public string Heures { get; set; } = null!;
+        public string Heures { get; set; }
         public decimal MontantParticipation { get; set; }
         public string Byusername { get; set; } = null!;
         public int Actif { get; set; }
     }
 }
+
+
