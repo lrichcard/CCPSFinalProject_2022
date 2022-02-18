@@ -1,0 +1,142 @@
+﻿@model IEnumerable<CCPSAPPS.Models.Session>
+
+@{
+    ViewData["Title"] = "Index";
+
+    Pager page = new Pager();
+    int pageNo = 0;
+
+    if (ViewBag.Page !=null)
+    {
+        page = ViewBag.Page;
+        pageNo = page.CurrentPage;
+    }
+}
+
+
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClasseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfesseurId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxEtudiants)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JourRencontre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCommence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Heures)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontantParticipation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Byusername)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actif)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClasseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfesseurId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxEtudiants)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JourRencontre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCommence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateFin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Heures)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontantParticipation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Byusername)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Actif)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.SessionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SessionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SessionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+<div class="container">
+    @if (page.TotalPages >0)
+    {
+        <ul class="pagination justify-content-end">
+
+             @if (page.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class ="page-link" asp-controller="Session" asp-action="Index" asp-route-pg="1">First</a>
+                </li>
+
+                 <li class="page-item">
+                    <a class ="page-link" asp-controller="Session" asp-action="Index" asp-route-pg="@(page.CurrentPage)">Previous</a>
+                </li>
+
+            }
+
+
+            @for ( var pge = page.StartPage; pge <= page.EndPage; pge++)
+            {   
+                 <li class="page-item @(pge == page.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-controller="Session" asp-action="Index" asp-route-pg="@pge">@pge</a>
+
+                </li>
+            }
+            @if (page.CurrentPage < page.TotalPages)
+            {
+                <li class="page-item">
+                    <a class ="page-link" asp-controller="Session" asp-action="Index" asp-route-pg="@(page.CurrentPage +1)">Next</a>
+                </li>
+
+                 <li class="page-item">
+                    <a class ="page-link" asp-controller="Session" asp-action="Index" asp-route-pg="@(page.TotalPages)">Last</a>
+                </li>
+
+            }
+        </ul>
+    }
+</div>
