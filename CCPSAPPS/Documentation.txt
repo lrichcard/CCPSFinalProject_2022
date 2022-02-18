@@ -1,8 +1,25 @@
-﻿Nous avons fait un changement dans le database
+﻿***Pour recupere les nouvelles branches****
+*0)Creer une nouvelle branche ->>> git checkout -b brancheName
+*1) git fetch--> voir toutes les nouvelles branches
+*2) git pull--> pour recuperer les nouvelles branches
+*3) git merge currentBrancheName + BrancheVoulu
+
+## pour ajouter une nouvelle branche dans le projet sur git##
+git status --> vous permet de voir tous les changements, comment ca vous pourrez voir l'adresse du fichier modifié
+git add + path du fichier
+git commit -m"blabla"
+git push -u origin brancheName
+##
+
+
+*Nous avons fait un changement dans le database
 specifiquement dans la table Annonce dans le champ Annonce
 A cause de la convention de .net core ne permet pas a une variable d'avoir le nom que le model(Class)
 Pour cela nous avons ajouter un chiffre 1 dans le nom du champ appele Annonce ce qui donne Annonce1
 
 
-Nous Avons fait un changement dans la table HeuresDeClasse de la base de donnee
-Nous avons retiré ou enlever la "S" ce qui donne HeureDeClasse sans "S"
+*Nous Avons fait un changement dans la table HeuresDeClasse de la base de donnee
+Nous avons retiré ou enlever la "S" ce qui donne HeureDeClasse sans "S" selon la convention
+
+
+*Nous avons ajouté la lettre "S" dans la table DatesSessionCourte ce qui donne DatesSessionCourtes avec "S" selon la convention
