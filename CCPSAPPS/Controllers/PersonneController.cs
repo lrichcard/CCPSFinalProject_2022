@@ -12,28 +12,28 @@ namespace CCPSAPPS.Controllers
         {
             _db = db;
         }
-       
 
-        //public IActionResult Index(int pg=1)
-        //{
-        //    IEnumerable<Personne> personne = _db.Personnes;
 
-        //    const int pageSize = 50;
-        //    if (pg < 1)
-        //        pg = 1;
-        //    int resCount = personne.Count();
-        //    var page = new Pager(resCount, pg, pageSize);
+        public IActionResult Index(int pg = 1)
+        {
+            IEnumerable<Personne> objPersonneList = _db.Personnes;
 
-        //    int recSkip = (pg - 1) * pageSize;
-        //    var data = personne.Skip(recSkip).Take(page.PageSize).ToList();
+            const int pageSize = 10;
+            if (pg < 1)
+                pg = 1;
+            int resCount = objPersonneList.Count();
+            var page = new Pager(resCount, pg, pageSize);
 
-        //    this.ViewBag.Page = page;
+            int recSkip = (pg - 1) * pageSize;
+            var data = objPersonneList.Skip(recSkip).Take(page.PageSize).ToList();
 
-        //    return View(data);
+            this.ViewBag.Page = page;
 
-        //   // return View(personne);
+            return View(data);
 
-        //}
+            // return View(personne);
+
+        }
 
         ////Get - Create
         //public IActionResult Create()
@@ -125,12 +125,12 @@ namespace CCPSAPPS.Controllers
         //}
 
 
-        public IActionResult Index()
-        {
-            IEnumerable<Personne> objPersonneList = _db.Personnes.ToList();
-            //return View(objPersonneList);
-            return View("Create");
-        }
+        //public IActionResult Index()
+        //{
+        //    IEnumerable<Personne> objPersonneList = _db.Personnes.ToList();
+        //    return View(objPersonneList);
+        //    //return View("Create");
+        //}
 
         //GET Action Methode
         public IActionResult Create()
@@ -145,7 +145,6 @@ namespace CCPSAPPS.Controllers
         {
             if (ModelState.IsValid)
             {
-                bool b = Convert.ToBoolean(obj.AdminStaff);
                 ViewBag.statut = obj.Statut;
                 ViewBag.adminStaff = obj.AdminStaff;
 
@@ -205,7 +204,7 @@ namespace CCPSAPPS.Controllers
         }
 
         //GET Action Methode
-        public IActionResult Edit(int? id)
+        public IActionResult Update(int? id)
         {
             if (id == null || id == 0)
             {
@@ -224,8 +223,8 @@ namespace CCPSAPPS.Controllers
 
         //Post Action Methode
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(Personne obj)
+        [ValidateAntiForgeryToken] 
+        public IActionResult Update(Personne obj)
         {
             if (ModelState.IsValid)
             {

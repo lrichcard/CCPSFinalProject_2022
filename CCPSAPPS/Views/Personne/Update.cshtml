@@ -1,18 +1,12 @@
 ﻿@model CCPSAPPS.Models.Personne
-
 @{
-    ViewData["Title"] = "Update";
+    ViewData["Title"] = "Create";
 }
-
-<h1>Update</h1>
-
-<h4>Personne</h4>
-<hr />
+<form methode="post" >  
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Update">
+    @*<div class="col-md-4">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="PersonneId" />
             <div class="form-group">
                 <label asp-for="Prenom" class="control-label"></label>
                 <input asp-for="Prenom" class="form-control" />
@@ -119,13 +113,154 @@
                 <span asp-validation-for="Sexe" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
-    </div>
-</div>
+    </div>*@
 
-<div>
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-success text-center fw-bold">Etiter Information d'un Étudiant</h2>
+            <hr />
+        <div class="col-6">
+            <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Nom" class="input-group-text w-25"><i class="bi bi-file-person-fill"></i> Nom</span>             
+                     <input asp-for="Nom" class="form-control" disabled>
+                     <span asp-validation-for="Nom" class="alert-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+             <div class="input-group mb-3">
+                     <span for="Prenom" class="input-group-text w-25"><i class="bi bi-file-person-fill"></i> Prénom</span>             
+                     <input asp-for="Prenom" class="form-control" disabled>
+                     <span asp-validation-for="Prenom" class="alert-danger"></span>
+                </div>
+        </div>
+
+        <div class="col-6">
+            <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Ddn" class="input-group-text w-25"><i class="bi bi-calendar-plus"></i> DDN</span>             
+                     <input asp-for="Ddn" class="form-control" disabled>
+                     <span asp-validation-for="Ddn" class="alert-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Sexe" class="input-group-text w-25"><i class="bi bi-gender-ambiguous"></i> Sexe</span>             
+                      <select asp-for="Sexe" class="form-select" aria-label="Default select example" disabled>
+                        <option selected>Choix de votre Sexe</option>
+                        <option value="1">M</option>
+                        <option value="2">F</option>
+                     </select>
+                     <span asp-validation-for="Sexe" class="alert-danger"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-6">
+             <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Telephone1" class="input-group-text w-25"><i class="bi bi-telephone"></i> Tel1</span>             
+                     <input asp-for="Telephone1" class="form-control">
+                     <span asp-validation-for="Telephone1" class="alert-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+             <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Telephone2" class="input-group-text w-25"><i class="bi bi-telephone"></i> Tel2</span>             
+                     <input asp-for="Telephone2" class="form-control">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-6">
+             <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Email" class="input-group-text w-25"><i class="bi bi-envelope"></i> Email</span>             
+                     <input asp-for="Email" class="form-control">
+                      <span asp-validation-for="Email" class="alert-danger"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-6">
+            <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="AdresseRue" class="input-group-text w-25"><i class="bi bi-house"></i> Adresse</span>             
+                     <input asp-for="AdresseRue" class="form-control">
+                      <span asp-validation-for="AdresseRue" class="alert-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+             <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="AdresseRue" class="input-group-text w-25"><i class="bi bi-house"></i> Adresse</span>             
+                     <input asp-for="Ville" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+             <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="Pays" class="input-group-text w-25"><i class="bi bi-house"></i> Pays</span>             
+                     <input asp-for="Pays" class="form-control">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-6">
+            <div class="mb-3 row">
+                <div class="input-group mb-3">
+                     <span for="NumeroRecu" class="input-group-text w-25"><i class="bi bi-receipt"></i> # Reçu</span>             
+                     <input asp-for="NumeroRecu" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            
+                <div class="mb-3 row">
+               <div class="input-group mb-3">
+                     <span for="NumeroRecu" class="input-group-text"><i class="bi bi-receipt"></i> Photo</span>
+                     <input  asp-for="Photo" class="form-control" id="formFile" type="file">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 p-3"> 
+           <div class="card text-center">
+             <div class="card-header">
+                 Statut De la Personne
+             </div>
+            <div class="card-body">
+                <label class="px-2">| Etudiant  </label>
+                @Html.RadioButtonFor(m => m.Statut, "Etudiant")
+                <label class="px-2">| Professeur </label>
+                @Html.RadioButtonFor(m => m.Statut,"Professeur")
+
+
+                <label class="px-2">| Staff </label>
+                @Html.CheckBoxFor(m => m.AdminStaff,false)
+            </div>
+         </div>                       
+        </div>
+        <div class="col-6 mt-5"> 
+            <button type="submit" class="btn btn-success align-center" style="width:30%;margin-left:20%">Update</button>
+            <a asp-action="Index" class="btn btn-warning align-center " style="width:30%">
+            CANCEL
+            </a>
+        </div> 
+   </div>
+</div>
+</div>
+@*<div>
     <a asp-action="Index">Back to List</a>
-</div>
-
+</div>*@
+</form>

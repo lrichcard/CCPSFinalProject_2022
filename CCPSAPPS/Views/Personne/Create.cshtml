@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Create";
 }
-<form >
+<form methode="post" >  
 <div class="row">
     @*<div class="col-md-4">
         <form asp-action="Create">
@@ -134,7 +134,7 @@
         </div>
         <div class="col-6">
              <div class="input-group mb-3">
-                     <span for="Prenom" class="input-group-text w-25"><i class="bi bi-file-person-fill"></i> Prenom</span>             
+                     <span for="Prenom" class="input-group-text w-25"><i class="bi bi-file-person-fill"></i> Prénom</span>             
                      <input asp-for="Prenom" class="form-control">
                      <span asp-validation-for="Prenom" class="alert-danger"></span>
                 </div>
@@ -228,8 +228,7 @@
         <div class="col-6">
             
                 <div class="mb-3 row">
-@*                <label class="col-sm-2 col-form-label w-25"><i class="bi bi-file-earmark-arrow-up"></i>Photo </label>
-*@                <div class="input-group mb-3">
+               <div class="input-group mb-3">
                      <span for="NumeroRecu" class="input-group-text"><i class="bi bi-receipt"></i> Photo</span>
                      <input  asp-for="Photo" class="form-control" id="formFile" type="file">
                 </div>
@@ -254,15 +253,15 @@
          </div>                       
         </div>
         <div class="col-6 mt-5"> 
-            <button type="submit" class="btn btn-success align-center mx-5" style="width:150px">SAUVEGARDEZ</button>
-            <a asp-controller="Pesonne" asp-action="Index" class="btn btn-warning" style="width:150px">
+            <button type="submit" class="btn btn-success align-center" style="width:30%;margin-left:20%">SAUVEGARDEZ</button>
+            <a asp-action="Index" class="btn btn-warning" style="width:30%">
             CANCEL
             </a>
         </div> 
    </div>
 </div>
 </div>
-<div>
+@*<div>
     <a asp-action="Index">Back to List</a>
-</div>
+</div>*@
 </form>

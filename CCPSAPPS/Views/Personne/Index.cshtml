@@ -13,12 +13,10 @@
     }
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-
+<div>
+    <a asp-action="Create" class="btn btn-primary">Inscrit Un Nouveau Etudiant</a>
+</div>
+<br />
 @*<form asp-action="Index" method="get">
     <div class="form-actions no-color">
         <p>
@@ -28,10 +26,10 @@
         </p>
     </div>
 </form>*@
-<table class="table">
+<table class="table table-striped table-hover border border-secondary">
     <thead>
-        <tr>
-            <th>
+        <tr class="table-dark">
+            <th scope="row">
                 @Html.DisplayNameFor(model => model.Prenom)
             </th>
             <th>
@@ -40,65 +38,27 @@
             <th>
                 @Html.DisplayNameFor(model => model.Telephone1)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telephone2)
-            </th>
+           
             <th>
                 @Html.DisplayNameFor(model => model.Ddn)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.AdresseRue)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AdresseExtra)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Ville)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pays)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateCreee)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Remarque)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Etudiant)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Professeur)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AdminStaff)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Photo)
-            </th>
-            <th>
+                    
+             <th>
                 @Html.DisplayNameFor(model => model.UserNameAttribue)
             </th>
+
             <th>
-                @Html.DisplayNameFor(model => model.CreeParUsername)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumeroRecu)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EtudiantIdPlus)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sexe)
-            </th>
-            <th></th>
+                @Html.DisplayNameFor(model => model.Statut)
+            </th>                              
+                       
+            <th></th> <th></th> <th></th>
         </tr>
     </thead>
     <tbody>
-@*@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Prenom)
@@ -109,67 +69,33 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Telephone1)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telephone2)
-            </td>
+           
             <td>
                 @Html.DisplayFor(modelItem => item.Ddn)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AdresseRue)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AdresseExtra)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ville)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pays)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateCreee)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Remarque)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Etudiant)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Professeur)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AdminStaff)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Photo)
-            </td>
-            <td>
+            </td>          
+           
+             <td>
                 @Html.DisplayFor(modelItem => item.UserNameAttribue)
             </td>
+
             <td>
-                @Html.DisplayFor(modelItem => item.CreeParUsername)
+                @Html.DisplayFor(modelItem => item.Statut)
             </td>
+                                             
             <td>
-                @Html.DisplayFor(modelItem => item.NumeroRecu)
+                <a asp-action="Update" class="btn btn-warning" asp-route-id="@item.PersonneId" style="width:100%">Edit</a>                               
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EtudiantIdPlus)
+            <td>               
+                <a asp-action="Details"  class="btn btn-info" asp-route-id="@item.PersonneId" style="width:100%">Details</a>                
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sexe)
-            </td>
-            <td>
-                <a asp-action="Update" asp-route-id="@item.PersonneId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PersonneId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PersonneId">Delete</a>
-            </td>
+            <td>   
+                <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.PersonneId" style="width:100%">Delete</a>
+          </td>
         </tr>
-}*@
+}
     </tbody>
 </table>
 
