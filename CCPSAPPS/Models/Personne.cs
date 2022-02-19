@@ -21,7 +21,7 @@ namespace CCPSAPPS.Models
         public string? Remarque { get; set; }
         public int Etudiant { get; set; }
         public int Professeur { get; set; }
-        public int AdminStaff { get; set; }
+        public bool AdminStaff { get; set; } = false;
         public byte[]? Photo { get; set; }
         public string? UserNameAttribue { get; set; }
         public string CreeParUsername { get; set; } = null!;
@@ -29,5 +29,7 @@ namespace CCPSAPPS.Models
         public string? EtudiantIdPlus { get; set; }
         public string? Email { get; set; }
         public string? Sexe { get; set; }
+        public string? Statut { get; set; }
+
     }
 }
