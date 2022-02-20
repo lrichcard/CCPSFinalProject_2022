@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "dll",
+      "exe": "",
+      "project": "CCPSAPPS\\obj\\Debug\\net6.0\\ref\\CCPSAPPS.dll",
+      "projectTarget": "",
+      "name": "CCPSAPPS.dll"
+    }
+  ]
+}
